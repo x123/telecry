@@ -1,0 +1,5 @@
+#!env bash
+set -xeuo pipefail
+pushd ~/src/telecry
+eval $(cat /run/secrets/tg/nixiumbot) ./telecry
+popd
