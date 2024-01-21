@@ -1,0 +1,3 @@
+#!env bash
+set -xeuo pipefail
+MIX_ENV=prod mix escript.build

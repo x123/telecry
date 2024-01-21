@@ -17,7 +17,8 @@ defmodule Telecry.MixProject do
   def escript do
     [
       main_module: Telecry.CLI,
-      app: nil
+      app: nil,
+      shebang: "#! /usr/bin/env escript\n"
     ]
   end
 
